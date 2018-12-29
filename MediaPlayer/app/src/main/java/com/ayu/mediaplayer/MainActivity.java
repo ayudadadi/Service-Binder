@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     private Button btn_pause;
     private Button btn_stop;
     private Button btn_xh;
+    private Button btn_pre;
+    private Button btn_next;
     private MediaPlayer mediaPlayer;
     private SeekBar seekBar;
     private TextView txt_dq;
@@ -165,5 +167,7 @@ public class MainActivity extends AppCompatActivity {
         txt_dq = findViewById(R.id.txt_dq);
         txt_zong = findViewById(R.id.txt_zong);
         btn_xh = findViewById(R.id.btn_xh);
+        btn_pre = findViewById(R.id.btn_pre);
+        btn_next = findViewById(R.id.btn_next);
     }
 }
